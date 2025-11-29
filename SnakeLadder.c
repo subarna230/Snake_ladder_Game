@@ -93,8 +93,8 @@ int main() {
         printBoard(player1, player2);
     }
 
-    if(player1>=WIN) printf("\n🎉 Player 1 Wins! Congratulations!\n");
-    else printf("\n🎉 Player 2 Wins! Congratulations!\n");
+    if(player1>=WIN) printf("\n Player 1 Wins! Congratulations!\n");
+    else printf("\n Player 2 Wins! Congratulations!\n");
 
     return 0;
 }
